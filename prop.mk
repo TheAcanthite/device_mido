@@ -50,8 +50,9 @@ dalvik.vm.image-dex2oat-filter=speed
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 bluetooth.hfp.client=1 \
-vendor.qcom.bluetooth.soc=smd \
-ro.bluetooth.hfp.ver=1.7
+qcom.bluetooth.soc=smd \
+ro.bluetooth.hfp.ver=1.7 \
+ro.qualcomm.bt.hci_transport=smd
 
 # Boot
 PRODUCT_PROPERTY_OVERRIDES += \
